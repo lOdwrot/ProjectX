@@ -1,0 +1,17 @@
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-container__item {
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px blue;
+}
+
+.list-container__item:hover {
+    border: solid 2px red;
+    background: cyan;
+}
+
